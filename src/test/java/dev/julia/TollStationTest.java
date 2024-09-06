@@ -94,7 +94,7 @@ public class TollStationTest {
         Vehicle car = new Car("ABC123");
         tollStation.registerVehicle(car);
 
-        tollStation.showReport();  // You can manually check the console output, or use a library to capture it.
+        tollStation.showReport();  
     }
 
     @Test

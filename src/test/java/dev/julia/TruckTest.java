@@ -8,7 +8,7 @@ public class TruckTest {
     @Test
     public void testCalculateToll() {
         Truck truck = new Truck("LMN456", 4);
-        assertEquals(200, truck.calculateToll()); // 4 axles, $50 per axle
+        assertEquals(200, truck.calculateToll()); 
     }
 
     @Test

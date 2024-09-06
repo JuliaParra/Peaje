@@ -8,6 +8,6 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public int calculateToll() {
-        return 50; // Fixed toll for motorcycles
+        return 50; 
     }
 }

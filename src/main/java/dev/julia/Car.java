@@ -8,6 +8,6 @@ public class Car extends Vehicle {
 
     @Override
     public int calculateToll() {
-        return 100; // Fixed toll for cars
+        return 100; 
     }
 }

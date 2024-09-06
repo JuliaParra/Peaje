@@ -21,6 +21,6 @@ public class Truck extends Vehicle {
 
     @Override
     public int calculateToll() {
-        return 50 * axles; // $50 per axle
+        return 50 * axles; 
     }
 }
